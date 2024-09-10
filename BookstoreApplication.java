@@ -11,10 +11,10 @@ import java.util.stream.Stream;
 [IMPORT THE BOOK MODEL AND BOOK REPOSITORY PACKAGES]
 
 @SpringBootApplication
-public class Bookstore {
+public class BookstoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(BookstoreApplication.class, args);
 	}
 	@Bean
     ApplicationRunner init(BookRepository repository) {
